@@ -18,12 +18,11 @@ A principal contribuição é a **lógica de padrões híbrida**, que associa es
 
 | Componente | Detalhe | Função |
 | :--- | :--- | :--- |
-| **Bracelete** | Impresso em 3D, design ergonômico. | Plataforma vestível que hospeda os atuadores. |
-| **Atuadores** | **6 Motores de vibração** (LRA ou ERM). | Fornecer o feedback vibrotátil. |
+| **Bracelete** | Impresso em 3D. | Plataforma vestível que hospeda os atuadores. |
+| **Atuadores** | **6 Motores de vibração**. | Fornecer o feedback vibrotátil. |
 | **Módulo de Controle** | PCI com **8 Canais independentes**. | Acionar e controlar a intensidade dos motores. |
 | **Microcontrolador** | **Arduino Uno** (ou similar, como um ESP32 para versão final). | Servidor (Back-End) para executar o firmware e gerenciar o acionamento via PWM. |
 | **Otimização** | Espaçamento de **2,5 cm** entre os atuadores. | Reduzir a confusão de estímulos e melhorar a acuidade tátil espacial. |
-
 ---
 
 ## Software e Arquitetura do Sistema
